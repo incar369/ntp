@@ -1,0 +1,12 @@
+from ursina import *
+
+
+PLAYER_COLOR = rgb(48, 24, 24)
+PLAYER_SIZE = (1, 1, 3)
+PLAYER_POSITION = (0, 2, 0)
+PLAYER_SPEED = 0.1
+
+
+CAMERA_DISTANCE = 10
+
+CHUNK_SIZE = 32
