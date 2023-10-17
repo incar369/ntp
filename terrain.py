@@ -16,3 +16,4 @@ class Terrain:
     def init_terrain(self):
         c = self.chunk.create_chunk(self.chunk, 1, 1)
         self.terrain.append(c)
+
