@@ -1,3 +1,5 @@
+import ursina.color
+
 from config import *
 from random import *
 
@@ -8,12 +10,12 @@ class Chunk:
 
     @staticmethod
     def create_chunk_fragment(x, y, z):
-        return Entity(model='cube', color=rgb(24, 60 + randrange(11), 24), scale=(1, 1, 3), collider='box',
+        return Entity(model='cube', color=color.white, texture='white_cube', scale=(CUBE_SIZE, CUBE_SIZE, CUBE_SIZE), collider='box',
                       position=(x, y, z))
 
     def create_chunk(self, x, y):
         chunk = []
         for _x in range(x, x + CHUNK_SIZE):
             for _y in range(y, y + CHUNK_SIZE):
-                chunk.append(self.create_chunk_fragment(_x, -8, _y))
+                chunk.append(self.create_chunk_fragment(_x * CUBE_SIZE, -8 , _y * CUBE_SIZE))
         return chunk

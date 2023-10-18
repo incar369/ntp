@@ -5,6 +5,10 @@ from config import *
 class Camera:
     def __init__(self, player):
         self.cam = EditorCamera()
+
+        self.cam.y += 5
+        self.cam.rotation_x += 15
+
         self.p = player.unit
         self.init()
 
