@@ -1,4 +1,3 @@
-from ursina import *
 from config import *
 
 

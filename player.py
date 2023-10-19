@@ -1,6 +1,4 @@
-from ursina import *
 from config import *
-import random
 
 
 class Player:

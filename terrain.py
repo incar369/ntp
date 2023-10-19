@@ -1,7 +1,5 @@
-from ursina import *
 from chunk import Chunk as _Chunk
 from config import *
-import random
 
 
 class Terrain:

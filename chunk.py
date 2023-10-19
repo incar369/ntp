@@ -1,7 +1,4 @@
-import ursina.color
-
 from config import *
-from random import *
 
 
 class Chunk:
@@ -17,5 +14,5 @@ class Chunk:
         chunk = []
         for _x in range(x, x + CHUNK_SIZE):
             for _y in range(y, y + CHUNK_SIZE):
-                chunk.append(self.create_chunk_fragment(_x * CUBE_SIZE, -8 , _y * CUBE_SIZE))
+                chunk.append(self.create_chunk_fragment(_x * CUBE_SIZE, -8, _y * CUBE_SIZE))
         return chunk

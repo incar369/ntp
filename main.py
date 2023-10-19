@@ -1,7 +1,6 @@
-from random import *
-from game import Game
 from ursina import *
-import numpy
+
+from game import Game
 
 app = Ursina()
 
