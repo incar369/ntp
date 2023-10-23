@@ -1,7 +1,7 @@
 from ursina import *
 
 from game import Game
-#add new comment1
+
 app = Ursina()
 
 window.borderless = False
