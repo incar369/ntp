@@ -1,7 +1,7 @@
 from ursina import *
 
 from game import Game
-#dfgdfgdfg
+#dfgdfgdfgвапва
 app = Ursina()
 
 window.borderless = False
