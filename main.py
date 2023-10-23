@@ -10,3 +10,5 @@ scene.fog_density = (50, 200)
 game = Game()
 
 app.run()
+
+#welcome MAXIM
