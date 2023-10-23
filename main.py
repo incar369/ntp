@@ -2,8 +2,6 @@ from ursina import *
 
 from game import Game
 
-#add new comment
-
 app = Ursina()
 
 window.borderless = False
