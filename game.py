@@ -1,6 +1,6 @@
 from player import Player as _Player
 from camera import Camera as _Camera
-from terrain import Terrain as _Terrain
+from terrain_generator import Terrain as _Terrain
 from config import *
 
 

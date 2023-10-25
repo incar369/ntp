@@ -1,3 +1,5 @@
+import time
+
 from ursina import *
 
 from game import Game
@@ -11,4 +13,5 @@ game = Game()
 
 app.run()
 
-#welcome MAXIM
+
+# welcome MAXIM
